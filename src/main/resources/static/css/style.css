@@ -1,0 +1,70 @@
+        html, body {
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            flex: 1;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            width: 100%;
+        }
+
+        #eventModal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5); /* Fondo oscuro */
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        #eventModal.hidden {
+            display: none !important;
+        }
+
+        #modalContent {
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            width: 400px;
+            z-index: 1001;
+        }
+
+
+        #calendar-container {
+            width: 100%;
+            max-width: 100%;
+            padding: 0 2rem;
+        }
+
+        #calendar {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .fc-daygrid-day {
+            min-height: 120px; /* Altura mínima por celda */
+        }
+
+        .fc .fc-daygrid-event {
+            white-space: normal;
+            font-size: 0.85rem;
+            padding: 3px 5px;
+            background-color: #0d6efd;
+            color: white;
+            border-radius: 4px;
+        }
