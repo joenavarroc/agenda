@@ -56,7 +56,8 @@ agenda/
 ---
 
 ## 🧪 Swagger
-
+Acceder a la aplicación en
+http://localhost:8080
 > Disponible en:  
 `http://localhost:8080/swagger-ui/index.html`
 
