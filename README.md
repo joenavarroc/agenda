@@ -32,38 +32,6 @@ Aplicación web desarrollada en **Java** con **Spring Boot**, que permite a los 
 
 ---
 
-## 📂 Estructura del Proyecto
-agenda/
-├── src/
-│ ├── main/
-│ │ ├── java/com/agenda/
-| | ├── config
-| | ├── controller
-| | ├── dto
-| | ├── exeption
-| | ├── model
-| | ├── repository
-| | ├── security
-| | ├── service
-| | ├── AgendaApplication.java
-│ └── resources/
-│ └── test/
-├── Dockerfile
-├── docker-compose.yml
-├── pom.xml
-└── README.md
-
-
-
-
-
-
-
-
-
-
----
-
 ## 🔐 Autenticación
 
 - **JWT**: Para sesiones estándar.
