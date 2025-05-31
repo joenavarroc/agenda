@@ -24,11 +24,11 @@ Aplicación web desarrollada en **Java** con **Spring Boot**, que permite a los 
 
 | Backend | Frontend | Infraestructura |
 |--------|----------|------------------|
-| Java 17 | HTML5 | Docker |
+| Java 21 | HTML5 | Docker |
 | Spring Boot | CSS3 | Docker Compose |
 | Spring Security | JavaScript | MySQL |
 | JWT | — | Mail Sender |
-| OAuth2 (Google) | — | Swagger UI |
+| OAuth2 (Google,GitHub,FaceBook) | — | Swagger UI |
 
 ---
 
@@ -37,7 +37,16 @@ agenda/
 ├── src/
 │ ├── main/
 │ │ ├── java/com/agenda/
-│ │ └── resources/
+| | ├── config
+| | ├── controller
+| | ├── dto
+| | ├── exeption
+| | ├── model
+| | ├── repository
+| | ├── security
+| | ├── service
+| | ├── AgendaApplication.java
+│ └── resources/
 │ └── test/
 ├── Dockerfile
 ├── docker-compose.yml
